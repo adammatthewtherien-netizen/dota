@@ -3,6 +3,16 @@ const getP=()=>{try{return JSON.parse(localStorage.getItem(KEY))||{}}catch{retur
 const saveP=p=>localStorage.setItem(KEY,JSON.stringify(p));
 const key=(id,i)=>`${id}:g${i+1}`;
 
+function safeLabel(m){
+  // Never expose team names in the UI.
+  // Prefer a precomputed spoiler-safe label from matches.json.
+  if (m.displayLabel) return m.displayLabel;
+
+  const round=(m.round||'Series').trim();
+  const n=m.seriesNumber||1;
+  return `${round} Series ${n}`;
+}
+
 function nextIndex(p,m){
   let i=0;
   while(p[key(m.id,i)]) i++;
@@ -35,7 +45,7 @@ function render(data){
     ${(s.days||[]).length ? s.days.map(d=>`
       <div><div class="daytitle">${d.label}</div>
       ${(d.matches||[]).map(m=>`<article class="match">
-        <div class="matchhead"><b>${m.teamA} vs ${m.teamB}</b><span class="meta">${m.round||''}</span></div>
+        <div class="matchhead"><b>${safeLabel(m)}</b><span class="meta">${m.round||''}</span></div>
         <div class="games">${seriesBody(p,m)}</div></article>`).join('')}
       </div>`).join('') : `<div class="notice">Main Event matches will appear here automatically after the official individual-game VODs are uploaded and the GitHub sync runs.</div>`}
     </section>`).join('');

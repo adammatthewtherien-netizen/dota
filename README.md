@@ -1,30 +1,49 @@
-# TI 2026 Spoiler-Free VODs — V6
+# TI 2026 Spoiler-Free VODs — V8
 
-This version fixes the YouTube 404 `playlistNotFound` error.
+## New: team names hidden
 
-## Fix
-The importer no longer uses a hard-coded YouTube channel ID. It resolves the official Dota 2 channel from:
+The website no longer renders team names at all.
 
-`@dota2`
+Internally, `matches.json` still keeps the real team names because the importer needs them to match official YouTube uploads. The browser only renders `displayLabel`.
 
-and then retrieves that channel's uploads playlist through the YouTube Data API.
+Examples:
 
-The existing safeguards remain:
+- `Round 1 Series 1`
+- `Elimination Round Series 3`
+- `Upper Bracket Series 1`
+- `Lower Bracket Series 2`
+- `Main Event Series 1`
 
-- only uploads from the last 30 days;
-- only titles beginning with `[EN]`;
-- flexible parsing of `Team A vs Team B ... Game X`;
-- automatic Group Stage backfill;
-- automatic Main Event additions;
-- scheduled GitHub sync every 15 minutes.
+If an official Main Event YouTube title includes `Upper Bracket`, `Lower Bracket`, `Upper Bracket Final`, `Lower Bracket Final`, or `Grand Final`, the importer uses that wording automatically.
+
+If the title does not identify the bracket, the safe fallback is:
+
+`Main Event Series N`
+
+This avoids accidentally exposing which teams advanced.
+
+## YouTube links
+
+The team names are hidden only in the website UI. The stored YouTube video ID is unchanged, so clicking `Watch on YouTube` still opens the correct official English VOD.
+
+## Existing protections
+
+- only `[EN]` videos;
+- only videos uploaded within the rolling last 30 days;
+- official `@dota2` channel only;
+- current game + exactly one hidden next-game row;
+- no scores or winners displayed;
+- automatic Main Event ingestion via GitHub Actions.
 
 ## Update
-Replace the files in your GitHub repository with this package. The most important changed file is:
 
-`scripts/sync-youtube.mjs`
+Replace your repo files with this package and commit.
 
-Then commit the changes and run:
+The important changed files are:
 
-**Actions → Sync TI 2026 YouTube VODs → Run workflow**
+- `app.js`
+- `matches.json`
+- `scripts/sync-youtube.mjs`
+- `index.html`
 
-Your existing `YOUTUBE_API_KEY` secret does not need to be changed.
+Your existing `YOUTUBE_API_KEY` secret stays the same.
