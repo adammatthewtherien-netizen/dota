@@ -8,26 +8,69 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: ti-2026-vod-sync
+  cancel-in-progress: false
+
 jobs:
   sync:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
         with:
           node-version: "20"
+
       - name: Sync official Dota 2 uploads
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: node scripts/sync-youtube.mjs
-      - name: Commit new VODs
+
+      - name: Commit and push new VODs safely
+        shell: bash
         run: |
+          set -euo pipefail
+
           if git diff --quiet; then
             echo "No changes."
             exit 0
           fi
+
           git config user.name "ti-vod-bot"
           git config user.email "actions@users.noreply.github.com"
+
+          # Save the generated matches.json change as a commit first.
           git add matches.json
           git commit -m "Auto-add TI 2026 VODs"
-          git push
+
+          # Bring in any changes that landed on main after this workflow started.
+          git fetch origin main
+
+          # Replay our generated commit on top of the newest remote main.
+          if ! git rebase origin/main; then
+            echo "Rebase conflict detected. Trying matches.json-only recovery."
+
+            git rebase --abort
+
+            # Preserve our generated matches.json, reset to newest main,
+            # then re-apply the generated file as a fresh commit.
+            cp matches.json /tmp/matches.generated.json
+            git reset --hard origin/main
+            cp /tmp/matches.generated.json matches.json
+
+            if git diff --quiet; then
+              echo "Remote main already contains these VOD changes."
+              exit 0
+            fi
+
+            git add matches.json
+            git commit -m "Auto-add TI 2026 VODs"
+          fi
+
+          git push origin HEAD:main
