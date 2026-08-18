@@ -1,38 +1,14 @@
-# TI 2026 Spoiler-Free VODs — V9
+# TI 2026 Spoiler-Free VODs — V10
 
-## Fix for repeated GitHub push failures
+V10 replaces YouTube search ranking with a deterministic recent-upload scan.
 
-The previous workflow successfully found and updated VODs, but failed on:
+The importer now walks the official @dota2 uploads playlist page-by-page until it reaches an upload older than 30 days, then filters locally for:
+- `[EN]` prefix
+- `Team A vs Team B`
+- `Game X`
 
-`[rejected] main -> main (fetch first)`
+This avoids `search.list` ranking omissions while still limiting processing to the recent TI window.
 
-V9 hardens the GitHub Action so it:
+Elimination Round Series 2 Games 1 and 2 are also preloaded in `matches.json`.
 
-- checks out the full repository history;
-- prevents overlapping sync jobs with workflow concurrency;
-- commits the generated `matches.json`;
-- fetches the newest remote `main`;
-- rebases the generated VOD commit on top of the latest `main`;
-- falls back to a `matches.json`-only recovery if the rebase conflicts;
-- pushes only after reconciling with the latest branch.
-
-## What to update
-
-The only file you actually need to replace is:
-
-`.github/workflows/sync-youtube.yml`
-
-Because `.github` may be hidden on Windows, the easiest method is to edit the existing workflow directly on GitHub.
-
-Open:
-
-`.github/workflows/sync-youtube.yml`
-
-Click the pencil/edit icon, replace the contents with the version in this package, then commit.
-
-Your existing:
-- `YOUTUBE_API_KEY`
-- importer script
-- Vercel setup
-
-do not need to change.
+The existing safe-push GitHub workflow from V9 is retained.
