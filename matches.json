@@ -1,4 +1,8 @@
 {
+  "meta": {
+    "youtubeChannelId": "UCjkem1Rik-q4xKeETu9geUw",
+    "lastSync": null
+  },
   "stages": [
     {
       "name": "TI 2026 \u2014 Group Stage & Elimination Round",
@@ -11,18 +15,22 @@
               "teamA": "Team Falcons",
               "teamB": "LGD Gaming",
               "round": "Round 1",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "zKfCvQMun4s",
-                  "testAvailable": true
+                  "youtubeId": "zKfCvQMun4s"
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -31,14 +39,22 @@
               "teamA": "Nigma Galaxy",
               "teamB": "Iron Wing",
               "round": "Round 1",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": "BxxQN7USOjk"
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -47,14 +63,22 @@
               "teamA": "BoomBoys",
               "teamB": "OG",
               "round": "Round 1",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "YZkB98EwkHI",
-                  "testAvailable": true
+                  "youtubeId": "YZkB98EwkHI"
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -63,18 +87,22 @@
               "teamA": "TEAM VISION",
               "teamB": "Team Resilience",
               "round": "Round 1",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "r-isu9nyiL4",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -83,14 +111,22 @@
               "teamA": "Team Spirit",
               "teamB": "Xtreme Gaming",
               "round": "Round 1",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -99,14 +135,22 @@
               "teamA": "Team Liquid",
               "teamB": "Vici Gaming",
               "round": "Round 1",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -115,14 +159,22 @@
               "teamA": "Aurora Gaming",
               "teamB": "GamerLegion",
               "round": "Round 1",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -131,14 +183,22 @@
               "teamA": "Team Yandex",
               "teamB": "HULIGANI",
               "round": "Round 1",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -147,18 +207,22 @@
               "teamA": "LGD Gaming",
               "teamB": "Team Resilience",
               "round": "Round 2",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -167,14 +231,22 @@
               "teamA": "Nigma Galaxy",
               "teamB": "OG",
               "round": "Round 2",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -183,18 +255,22 @@
               "teamA": "TEAM VISION",
               "teamB": "Team Falcons",
               "round": "Round 2",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -203,18 +279,22 @@
               "teamA": "BoomBoys",
               "teamB": "Iron Wing",
               "round": "Round 2",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             }
@@ -228,14 +308,22 @@
               "teamA": "Team Spirit",
               "teamB": "Aurora Gaming",
               "round": "Round 3",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -244,18 +332,22 @@
               "teamA": "Team Yandex",
               "teamB": "Team Liquid",
               "round": "Round 3",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -264,14 +356,22 @@
               "teamA": "Xtreme Gaming",
               "teamB": "GamerLegion",
               "round": "Round 3",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -280,18 +380,22 @@
               "teamA": "HULIGANI",
               "teamB": "Vici Gaming",
               "round": "Round 3",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -300,14 +404,22 @@
               "teamA": "BoomBoys",
               "teamB": "TEAM VISION",
               "round": "Round 3",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": "gat-ATGfk6Q"
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -316,18 +428,22 @@
               "teamA": "Team Liquid",
               "teamB": "Team Spirit",
               "round": "Round 3",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": "1PgzY9Zw2qw"
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -336,18 +452,22 @@
               "teamA": "Iron Wing",
               "teamB": "Team Falcons",
               "round": "Round 3",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -356,14 +476,22 @@
               "teamA": "LGD Gaming",
               "teamB": "Nigma Galaxy",
               "round": "Round 3",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": "oE2XDnS45uc"
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -372,18 +500,22 @@
               "teamA": "Aurora Gaming",
               "teamB": "Team Yandex",
               "round": "Round 4",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -392,18 +524,22 @@
               "teamA": "Vici Gaming",
               "teamB": "GamerLegion",
               "round": "Round 4",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -412,14 +548,22 @@
               "teamA": "Team Resilience",
               "teamB": "OG",
               "round": "Round 4",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -428,14 +572,22 @@
               "teamA": "Xtreme Gaming",
               "teamB": "HULIGANI",
               "round": "Round 4",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             }
@@ -449,14 +601,22 @@
               "teamA": "TEAM VISION",
               "teamB": "Team Spirit",
               "round": "Round 4",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "D738SKFiCxE",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -465,18 +625,22 @@
               "teamA": "Iron Wing",
               "teamB": "Team Liquid",
               "round": "Round 4",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -485,14 +649,22 @@
               "teamA": "BoomBoys",
               "teamB": "Aurora Gaming",
               "round": "Round 4",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -501,14 +673,22 @@
               "teamA": "Nigma Galaxy",
               "teamB": "Vici Gaming",
               "round": "Round 4",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -517,18 +697,22 @@
               "teamA": "LGD Gaming",
               "teamB": "Xtreme Gaming",
               "round": "Round 4",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": "CPt0el5Y4ng"
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -537,18 +721,22 @@
               "teamA": "Team Falcons",
               "teamB": "GamerLegion",
               "round": "Round 4",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -557,18 +745,22 @@
               "teamA": "Team Resilience",
               "teamB": "Team Yandex",
               "round": "Round 4",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -577,18 +769,22 @@
               "teamA": "OG",
               "teamB": "HULIGANI",
               "round": "Round 4",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -597,18 +793,22 @@
               "teamA": "Team Liquid",
               "teamB": "Aurora Gaming",
               "round": "Round 5",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -617,14 +817,22 @@
               "teamA": "Nigma Galaxy",
               "teamB": "Team Spirit",
               "round": "Round 5",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -633,18 +841,22 @@
               "teamA": "BoomBoys",
               "teamB": "Team Falcons",
               "round": "Round 5",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -653,14 +865,22 @@
               "teamA": "LGD Gaming",
               "teamB": "Vici Gaming",
               "round": "Round 5",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -669,18 +889,22 @@
               "teamA": "Iron Wing",
               "teamB": "Team Yandex",
               "round": "Round 5",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "CRNStTd5DLY",
-                  "testAvailable": true
+                  "youtubeId": "CRNStTd5DLY"
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -689,14 +913,22 @@
               "teamA": "Team Resilience",
               "teamB": "Xtreme Gaming",
               "round": "Round 5",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -705,14 +937,22 @@
               "teamA": "OG",
               "teamB": "GamerLegion",
               "round": "Round 5",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             }
@@ -726,14 +966,22 @@
               "teamA": "Team Falcons",
               "teamB": "Vici Gaming",
               "round": "Elimination Round",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "eAjwCbp1exQ",
-                  "testAvailable": true
+                  "youtubeId": "eAjwCbp1exQ"
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -742,14 +990,22 @@
               "teamA": "Aurora Gaming",
               "teamB": "BoomBoys",
               "round": "Elimination Round",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "JD9W_WbWDh4",
-                  "testAvailable": true
+                  "youtubeId": "JD9W_WbWDh4"
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -758,18 +1014,22 @@
               "teamA": "Team Spirit",
               "teamB": "Team Resilience",
               "round": "Elimination Round",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -778,14 +1038,22 @@
               "teamA": "Iron Wing",
               "teamB": "GamerLegion",
               "round": "Elimination Round",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "-RBRI6TcVGk",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": "ot8WmjUKszs"
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             },
@@ -794,24 +1062,32 @@
               "teamA": "LGD Gaming",
               "teamB": "Team Yandex",
               "round": "Elimination Round",
+              "maxPossibleGames": 3,
               "games": [
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "",
-                  "testAvailable": true
+                  "youtubeId": ""
                 },
                 {
-                  "youtubeId": "VhUV27NsTAI",
-                  "testAvailable": true
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
+                },
+                {
+                  "youtubeId": ""
                 }
               ]
             }
           ]
         }
       ]
+    },
+    {
+      "name": "TI 2026 \u2014 Main Event",
+      "days": []
     }
   ]
 }
