@@ -1,49 +1,38 @@
-# TI 2026 Spoiler-Free VODs — V8
+# TI 2026 Spoiler-Free VODs — V9
 
-## New: team names hidden
+## Fix for repeated GitHub push failures
 
-The website no longer renders team names at all.
+The previous workflow successfully found and updated VODs, but failed on:
 
-Internally, `matches.json` still keeps the real team names because the importer needs them to match official YouTube uploads. The browser only renders `displayLabel`.
+`[rejected] main -> main (fetch first)`
 
-Examples:
+V9 hardens the GitHub Action so it:
 
-- `Round 1 Series 1`
-- `Elimination Round Series 3`
-- `Upper Bracket Series 1`
-- `Lower Bracket Series 2`
-- `Main Event Series 1`
+- checks out the full repository history;
+- prevents overlapping sync jobs with workflow concurrency;
+- commits the generated `matches.json`;
+- fetches the newest remote `main`;
+- rebases the generated VOD commit on top of the latest `main`;
+- falls back to a `matches.json`-only recovery if the rebase conflicts;
+- pushes only after reconciling with the latest branch.
 
-If an official Main Event YouTube title includes `Upper Bracket`, `Lower Bracket`, `Upper Bracket Final`, `Lower Bracket Final`, or `Grand Final`, the importer uses that wording automatically.
+## What to update
 
-If the title does not identify the bracket, the safe fallback is:
+The only file you actually need to replace is:
 
-`Main Event Series N`
+`.github/workflows/sync-youtube.yml`
 
-This avoids accidentally exposing which teams advanced.
+Because `.github` may be hidden on Windows, the easiest method is to edit the existing workflow directly on GitHub.
 
-## YouTube links
+Open:
 
-The team names are hidden only in the website UI. The stored YouTube video ID is unchanged, so clicking `Watch on YouTube` still opens the correct official English VOD.
+`.github/workflows/sync-youtube.yml`
 
-## Existing protections
+Click the pencil/edit icon, replace the contents with the version in this package, then commit.
 
-- only `[EN]` videos;
-- only videos uploaded within the rolling last 30 days;
-- official `@dota2` channel only;
-- current game + exactly one hidden next-game row;
-- no scores or winners displayed;
-- automatic Main Event ingestion via GitHub Actions.
+Your existing:
+- `YOUTUBE_API_KEY`
+- importer script
+- Vercel setup
 
-## Update
-
-Replace your repo files with this package and commit.
-
-The important changed files are:
-
-- `app.js`
-- `matches.json`
-- `scripts/sync-youtube.mjs`
-- `index.html`
-
-Your existing `YOUTUBE_API_KEY` secret stays the same.
+do not need to change.
