@@ -7,10 +7,16 @@ const reveal=(p,m,i)=>i===0||watched(p,m.id,i-1);
 
 function gameRow(p,m,g,i){
   if(!reveal(p,m,i)) return `<div class="row locked"><div><b>Next game</b><div class="meta">Hidden to prevent series-length spoilers</div></div></div>`;
-  if(!g || !g.youtubeId) return `<div class="row"><div><b>Next game</b><div class="meta">No additional game is currently available.</div></div></div>`;
   const w=watched(p,m.id,i);
-  const url=`https://www.youtube.com/watch?v=${encodeURIComponent(g.youtubeId)}`;
-  return `<div class="row"><div><b>Game ${i+1}</b><div class="${w?'watched':'meta'}">${w?'Watched':'Ready to watch'}</div></div><div class="actions"><a class="watch" href="${url}" target="_blank" rel="noopener">Watch on YouTube</a><button class="done" data-m="${m.id}" data-i="${i}">${w?'Watched ✓':'Mark finished'}</button></div></div>`;
+  let watchButton='';
+  if(g.youtubeId){
+    const url=`https://www.youtube.com/watch?v=${encodeURIComponent(g.youtubeId)}`;
+    watchButton=`<a class="watch" href="${url}" target="_blank" rel="noopener">Watch on YouTube</a>`;
+  } else {
+    const url=`player.html?match=${encodeURIComponent(m.id)}&game=${i+1}&a=${encodeURIComponent(m.teamA)}&b=${encodeURIComponent(m.teamB)}`;
+    watchButton=`<a class="watch test" href="${url}">Open test player <span class="badge">Test</span></a>`;
+  }
+  return `<div class="row"><div><b>Game ${i+1}</b><div class="${w?'watched':'meta'}">${w?'Watched':'Ready to watch'}</div></div><div class="actions">${watchButton}<button class="done" data-m="${m.id}" data-i="${i}">${w?'Watched ✓':'Mark finished'}</button></div></div>`;
 }
 
 function render(data){

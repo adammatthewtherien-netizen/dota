@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TI 2026 — Test Player</title><link rel="stylesheet" href="styles.css"></head>
+<body><main style="padding-top:60px;max-width:760px">
+<div class="notice"><strong>Test player.</strong> This slot is intentionally using a placeholder until its individual YouTube VOD ID is loaded. It lets you test the spoiler-safe flow without exposing YouTube search results.</div>
+<div class="match" style="padding:28px">
+<h2 id="title">TI 2026 Game</h2>
+<p class="meta">Imagine the YouTube player here. When the real VOD ID is added, this opens the official game directly.</p>
+<p><a class="watch test" href="index.html">← Back to match list</a></p>
+</div></main>
+<script>
+const q=new URLSearchParams(location.search);
+document.getElementById('title').textContent=`${q.get('a')||'Team A'} vs ${q.get('b')||'Team B'} — Game ${q.get('game')||''}`;
+</script></body></html>

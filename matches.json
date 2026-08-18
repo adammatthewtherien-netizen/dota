@@ -1,25 +1,811 @@
 {
   "stages": [
     {
-      "name": "Main Event",
+      "name": "TI 2026 \u2014 Group Stage & Elimination Round",
       "days": [
         {
-          "label": "Example day \u2014 replace with real TI 2026 matches",
+          "label": "2026-08-13",
           "matches": [
             {
-              "id": "example-001",
-              "teamA": "Team A",
-              "teamB": "Team B",
-              "round": "Upper Bracket",
+              "id": "2026-08-13-01-team-falcons-lgd-gaming",
+              "teamA": "Team Falcons",
+              "teamB": "LGD Gaming",
+              "round": "Round 1",
               "games": [
                 {
-                  "youtubeId": "VIDEO_ID_GAME_1"
+                  "youtubeId": "",
+                  "testAvailable": true
                 },
                 {
-                  "youtubeId": "VIDEO_ID_GAME_2"
+                  "youtubeId": "zKfCvQMun4s",
+                  "testAvailable": true
                 },
                 {
-                  "youtubeId": "VIDEO_ID_GAME_3"
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-13-02-nigma-galaxy-iron-wing",
+              "teamA": "Nigma Galaxy",
+              "teamB": "Iron Wing",
+              "round": "Round 1",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-13-03-boomboys-og",
+              "teamA": "BoomBoys",
+              "teamB": "OG",
+              "round": "Round 1",
+              "games": [
+                {
+                  "youtubeId": "YZkB98EwkHI",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-13-04-team-vision-team-resilience",
+              "teamA": "TEAM VISION",
+              "teamB": "Team Resilience",
+              "round": "Round 1",
+              "games": [
+                {
+                  "youtubeId": "r-isu9nyiL4",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-13-05-team-spirit-xtreme-gaming",
+              "teamA": "Team Spirit",
+              "teamB": "Xtreme Gaming",
+              "round": "Round 1",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-13-06-team-liquid-vici-gaming",
+              "teamA": "Team Liquid",
+              "teamB": "Vici Gaming",
+              "round": "Round 1",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-13-07-aurora-gaming-gamerlegion",
+              "teamA": "Aurora Gaming",
+              "teamB": "GamerLegion",
+              "round": "Round 1",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-13-08-team-yandex-huligani",
+              "teamA": "Team Yandex",
+              "teamB": "HULIGANI",
+              "round": "Round 1",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-13-09-lgd-gaming-team-resilience",
+              "teamA": "LGD Gaming",
+              "teamB": "Team Resilience",
+              "round": "Round 2",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-13-10-nigma-galaxy-og",
+              "teamA": "Nigma Galaxy",
+              "teamB": "OG",
+              "round": "Round 2",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-13-11-team-vision-team-falcons",
+              "teamA": "TEAM VISION",
+              "teamB": "Team Falcons",
+              "round": "Round 2",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-13-12-boomboys-iron-wing",
+              "teamA": "BoomBoys",
+              "teamB": "Iron Wing",
+              "round": "Round 2",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "2026-08-14",
+          "matches": [
+            {
+              "id": "2026-08-14-13-team-spirit-aurora-gaming",
+              "teamA": "Team Spirit",
+              "teamB": "Aurora Gaming",
+              "round": "Round 3",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-14-14-team-yandex-team-liquid",
+              "teamA": "Team Yandex",
+              "teamB": "Team Liquid",
+              "round": "Round 3",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-14-15-xtreme-gaming-gamerlegion",
+              "teamA": "Xtreme Gaming",
+              "teamB": "GamerLegion",
+              "round": "Round 3",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-14-16-huligani-vici-gaming",
+              "teamA": "HULIGANI",
+              "teamB": "Vici Gaming",
+              "round": "Round 3",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-14-17-boomboys-team-vision",
+              "teamA": "BoomBoys",
+              "teamB": "TEAM VISION",
+              "round": "Round 3",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-14-18-team-liquid-team-spirit",
+              "teamA": "Team Liquid",
+              "teamB": "Team Spirit",
+              "round": "Round 3",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-14-19-iron-wing-team-falcons",
+              "teamA": "Iron Wing",
+              "teamB": "Team Falcons",
+              "round": "Round 3",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-14-20-lgd-gaming-nigma-galaxy",
+              "teamA": "LGD Gaming",
+              "teamB": "Nigma Galaxy",
+              "round": "Round 3",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-14-21-aurora-gaming-team-yandex",
+              "teamA": "Aurora Gaming",
+              "teamB": "Team Yandex",
+              "round": "Round 4",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-14-22-vici-gaming-gamerlegion",
+              "teamA": "Vici Gaming",
+              "teamB": "GamerLegion",
+              "round": "Round 4",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-14-23-team-resilience-og",
+              "teamA": "Team Resilience",
+              "teamB": "OG",
+              "round": "Round 4",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-14-24-xtreme-gaming-huligani",
+              "teamA": "Xtreme Gaming",
+              "teamB": "HULIGANI",
+              "round": "Round 4",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "2026-08-15",
+          "matches": [
+            {
+              "id": "2026-08-15-25-team-vision-team-spirit",
+              "teamA": "TEAM VISION",
+              "teamB": "Team Spirit",
+              "round": "Round 4",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "D738SKFiCxE",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-15-26-iron-wing-team-liquid",
+              "teamA": "Iron Wing",
+              "teamB": "Team Liquid",
+              "round": "Round 4",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-15-27-boomboys-aurora-gaming",
+              "teamA": "BoomBoys",
+              "teamB": "Aurora Gaming",
+              "round": "Round 4",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-15-28-nigma-galaxy-vici-gaming",
+              "teamA": "Nigma Galaxy",
+              "teamB": "Vici Gaming",
+              "round": "Round 4",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-15-29-lgd-gaming-xtreme-gaming",
+              "teamA": "LGD Gaming",
+              "teamB": "Xtreme Gaming",
+              "round": "Round 4",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-15-30-team-falcons-gamerlegion",
+              "teamA": "Team Falcons",
+              "teamB": "GamerLegion",
+              "round": "Round 4",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-15-31-team-resilience-team-yandex",
+              "teamA": "Team Resilience",
+              "teamB": "Team Yandex",
+              "round": "Round 4",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-15-32-og-huligani",
+              "teamA": "OG",
+              "teamB": "HULIGANI",
+              "round": "Round 4",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-15-33-team-liquid-aurora-gaming",
+              "teamA": "Team Liquid",
+              "teamB": "Aurora Gaming",
+              "round": "Round 5",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-15-34-nigma-galaxy-team-spirit",
+              "teamA": "Nigma Galaxy",
+              "teamB": "Team Spirit",
+              "round": "Round 5",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-15-35-boomboys-team-falcons",
+              "teamA": "BoomBoys",
+              "teamB": "Team Falcons",
+              "round": "Round 5",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-15-36-lgd-gaming-vici-gaming",
+              "teamA": "LGD Gaming",
+              "teamB": "Vici Gaming",
+              "round": "Round 5",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-15-37-iron-wing-team-yandex",
+              "teamA": "Iron Wing",
+              "teamB": "Team Yandex",
+              "round": "Round 5",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "CRNStTd5DLY",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-15-38-team-resilience-xtreme-gaming",
+              "teamA": "Team Resilience",
+              "teamB": "Xtreme Gaming",
+              "round": "Round 5",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-15-39-og-gamerlegion",
+              "teamA": "OG",
+              "teamB": "GamerLegion",
+              "round": "Round 5",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "2026-08-16",
+          "matches": [
+            {
+              "id": "2026-08-16-40-team-falcons-vici-gaming",
+              "teamA": "Team Falcons",
+              "teamB": "Vici Gaming",
+              "round": "Elimination Round",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "eAjwCbp1exQ",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-16-41-aurora-gaming-boomboys",
+              "teamA": "Aurora Gaming",
+              "teamB": "BoomBoys",
+              "round": "Elimination Round",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "JD9W_WbWDh4",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-16-42-team-spirit-team-resilience",
+              "teamA": "Team Spirit",
+              "teamB": "Team Resilience",
+              "round": "Elimination Round",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-16-43-iron-wing-gamerlegion",
+              "teamA": "Iron Wing",
+              "teamB": "GamerLegion",
+              "round": "Elimination Round",
+              "games": [
+                {
+                  "youtubeId": "-RBRI6TcVGk",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                }
+              ]
+            },
+            {
+              "id": "2026-08-16-44-lgd-gaming-team-yandex",
+              "teamA": "LGD Gaming",
+              "teamB": "Team Yandex",
+              "round": "Elimination Round",
+              "games": [
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "",
+                  "testAvailable": true
+                },
+                {
+                  "youtubeId": "VhUV27NsTAI",
+                  "testAvailable": true
                 }
               ]
             }
