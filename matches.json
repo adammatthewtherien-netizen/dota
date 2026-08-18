@@ -1,0 +1,31 @@
+{
+  "stages": [
+    {
+      "name": "Main Event",
+      "days": [
+        {
+          "label": "Example day \u2014 replace with real TI 2026 matches",
+          "matches": [
+            {
+              "id": "example-001",
+              "teamA": "Team A",
+              "teamB": "Team B",
+              "round": "Upper Bracket",
+              "games": [
+                {
+                  "youtubeId": "VIDEO_ID_GAME_1"
+                },
+                {
+                  "youtubeId": "VIDEO_ID_GAME_2"
+                },
+                {
+                  "youtubeId": "VIDEO_ID_GAME_3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
