@@ -1,28 +1,30 @@
-# TI 2026 Spoiler-Free VODs — V5
+# TI 2026 Spoiler-Free VODs — V6
 
-## Import rules
+This version fixes the YouTube 404 `playlistNotFound` error.
 
-The automatic importer now applies three main safeguards:
+## Fix
+The importer no longer uses a hard-coded YouTube channel ID. It resolves the official Dota 2 channel from:
 
-1. **Last 30 days only** — uploads older than 30 days are ignored.
-2. **English only** — the YouTube title must begin with `[EN]`.
-3. **Loose match/game parsing** — after `[EN]`, the importer looks primarily for:
-   `Team A vs Team B ... Game X`
+`@dota2`
 
-It accepts common separators such as hyphens, pipes, colons and different dash characters.
+and then retrieves that channel's uploads playlist through the YouTube Data API.
 
-This makes the importer less dependent on exact suffixes such as `Group Stage`, `Main Event`, or `The International 2026`, while the 30-day cutoff and `[EN]` requirement keep false matches low.
+The existing safeguards remain:
 
-## Automatic syncing
+- only uploads from the last 30 days;
+- only titles beginning with `[EN]`;
+- flexible parsing of `Team A vs Team B ... Game X`;
+- automatic Group Stage backfill;
+- automatic Main Event additions;
+- scheduled GitHub sync every 15 minutes.
 
-The GitHub Action checks the official Dota 2 uploads playlist every 15 minutes.
+## Update
+Replace the files in your GitHub repository with this package. The most important changed file is:
 
-Required repository secret:
+`scripts/sync-youtube.mjs`
 
-`YOUTUBE_API_KEY`
+Then commit the changes and run:
 
-After uploading this version, run:
+**Actions → Sync TI 2026 YouTube VODs → Run workflow**
 
-**GitHub → Actions → Sync TI 2026 YouTube VODs → Run workflow**
-
-The log will show the 30-day cutoff and how many English VODs were parsed.
+Your existing `YOUTUBE_API_KEY` secret does not need to be changed.

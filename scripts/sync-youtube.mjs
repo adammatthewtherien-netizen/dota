@@ -14,7 +14,7 @@ const CUTOFF = new Date(NOW.getTime() - 30 * 24 * 60 * 60 * 1000);
 
 const FILE = new URL('../matches.json', import.meta.url);
 const data = JSON.parse(await fs.readFile(FILE, 'utf8'));
-const CHANNEL_ID = data.meta?.youtubeChannelId || 'UCjkem1Rik-q4xKeETu9geUw';
+const CHANNEL_HANDLE = '@dota2';
 
 const api = async (path, params={}) => {
   const u = new URL(`https://www.googleapis.com/youtube/v3/${path}`);
@@ -28,11 +28,12 @@ const api = async (path, params={}) => {
 
 const channel = await api('channels', {
   part:'contentDetails',
-  id:CHANNEL_ID
+  forHandle:CHANNEL_HANDLE
 });
 
 const uploads = channel.items?.[0]?.contentDetails?.relatedPlaylists?.uploads;
-if (!uploads) throw new Error('Could not find uploads playlist');
+if (!uploads) throw new Error(`Could not find uploads playlist for ${CHANNEL_HANDLE}`);
+console.log(`Resolved ${CHANNEL_HANDLE} uploads playlist: ${uploads}`);
 
 let items = [];
 let pageToken = '';
