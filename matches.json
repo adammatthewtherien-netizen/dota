@@ -2,7 +2,7 @@
   "meta": {
     "youtubeHandle": "@dota2",
     "importNotBefore": "2026-08-19T00:00:00Z",
-    "lastSync": "2026-08-20T07:29:32.270Z"
+    "lastSync": "2026-08-20T09:18:17.047Z"
   },
   "stages": [
     {
@@ -27,6 +27,37 @@
                 {
                   "youtubeId": "P4061DutiZE",
                   "publishedAt": "2026-08-20T06:04:27Z"
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                }
+              ]
+            },
+            {
+              "id": "main-2026-08-20-team-vision-boomboys",
+              "teamA": "TEAM VISION",
+              "teamB": "BoomBoys",
+              "round": "Main Event",
+              "seriesNumber": 2,
+              "displayLabel": "Main Event Series 2",
+              "bestOf": 3,
+              "games": [
+                {
+                  "youtubeId": "5zprKpSVOBg",
+                  "publishedAt": "2026-08-20T08:55:09Z"
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
                 },
                 {
                   "youtubeId": "",
