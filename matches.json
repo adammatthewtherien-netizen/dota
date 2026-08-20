@@ -2,12 +2,49 @@
   "meta": {
     "youtubeHandle": "@dota2",
     "importNotBefore": "2026-08-19T00:00:00Z",
-    "lastSync": null
+    "lastSync": "2026-08-20T05:06:32.937Z"
   },
   "stages": [
     {
-      "name": "TI 2026 \u2014 Main Event",
-      "days": []
+      "name": "TI 2026 — Main Event",
+      "days": [
+        {
+          "label": "2026-08-20",
+          "matches": [
+            {
+              "id": "main-2026-08-20-iron-wing-team-spirit",
+              "teamA": "Iron Wing",
+              "teamB": "Team Spirit",
+              "round": "Main Event",
+              "seriesNumber": 1,
+              "displayLabel": "Main Event Series 1",
+              "bestOf": 3,
+              "games": [
+                {
+                  "youtubeId": "unkBk7OuNyw",
+                  "publishedAt": "2026-08-20T04:48:26Z"
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
