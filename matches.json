@@ -2,7 +2,7 @@
   "meta": {
     "youtubeHandle": "@dota2",
     "importNotBefore": "2026-08-19T00:00:00Z",
-    "lastSync": "2026-08-20T14:18:58.425Z"
+    "lastSync": "2026-08-20T16:02:16.649Z"
   },
   "stages": [
     {
@@ -89,6 +89,37 @@
                 {
                   "youtubeId": "O3rvRNyvZAg",
                   "publishedAt": "2026-08-20T13:33:40Z"
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                }
+              ]
+            },
+            {
+              "id": "main-2026-08-20-nigma-galaxy-team-falcons",
+              "teamA": "Nigma Galaxy",
+              "teamB": "Team Falcons",
+              "round": "Main Event",
+              "seriesNumber": 4,
+              "displayLabel": "Main Event Series 4",
+              "bestOf": 3,
+              "games": [
+                {
+                  "youtubeId": "Oz6AULXp9Ro",
+                  "publishedAt": "2026-08-20T15:30:21Z"
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
                 },
                 {
                   "youtubeId": "",
