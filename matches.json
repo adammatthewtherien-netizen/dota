@@ -2,7 +2,7 @@
   "meta": {
     "youtubeHandle": "@dota2",
     "importNotBefore": "2026-08-19T00:00:00Z",
-    "lastSync": "2026-08-21T11:02:57.228Z"
+    "lastSync": "2026-08-21T12:04:01.084Z"
   },
   "stages": [
     {
@@ -191,6 +191,37 @@
                 {
                   "youtubeId": "mB7E_1afbrQ",
                   "publishedAt": "2026-08-21T10:35:08Z"
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                }
+              ]
+            },
+            {
+              "id": "main-2026-08-21-team-spirit-team-vision",
+              "teamA": "Team Spirit",
+              "teamB": "TEAM VISION",
+              "round": "Main Event",
+              "seriesNumber": 3,
+              "displayLabel": "Main Event Series 3",
+              "bestOf": 3,
+              "games": [
+                {
+                  "youtubeId": "3o6JeTTyDVI",
+                  "publishedAt": "2026-08-21T12:00:06Z"
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
                 },
                 {
                   "youtubeId": "",
