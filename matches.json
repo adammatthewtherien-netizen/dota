@@ -2,7 +2,7 @@
   "meta": {
     "youtubeHandle": "@dota2",
     "importNotBefore": "2026-08-19T00:00:00Z",
-    "lastSync": "2026-08-21T15:56:47.400Z"
+    "lastSync": "2026-08-21T17:15:51.544Z"
   },
   "stages": [
     {
@@ -222,6 +222,37 @@
                 {
                   "youtubeId": "vooVWm0H_nU",
                   "publishedAt": "2026-08-21T14:36:53Z"
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                }
+              ]
+            },
+            {
+              "id": "main-2026-08-21-team-yandex-nigma-galaxy",
+              "teamA": "Team Yandex",
+              "teamB": "Nigma Galaxy",
+              "round": "Main Event",
+              "seriesNumber": 4,
+              "displayLabel": "Main Event Series 4",
+              "bestOf": 3,
+              "games": [
+                {
+                  "youtubeId": "Qn1O5L1peeA",
+                  "publishedAt": "2026-08-21T16:56:50Z"
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
                 },
                 {
                   "youtubeId": "",
