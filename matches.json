@@ -2,7 +2,7 @@
   "meta": {
     "youtubeHandle": "@dota2",
     "importNotBefore": "2026-08-19T00:00:00Z",
-    "lastSync": "2026-08-21T07:59:55.030Z"
+    "lastSync": "2026-08-21T09:56:19.761Z"
   },
   "stages": [
     {
@@ -160,6 +160,37 @@
                 {
                   "youtubeId": "gzTZbm4Grac",
                   "publishedAt": "2026-08-21T06:32:56Z"
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                }
+              ]
+            },
+            {
+              "id": "main-2026-08-21-team-liquid-team-falcons",
+              "teamA": "Team Liquid",
+              "teamB": "Team Falcons",
+              "round": "Main Event",
+              "seriesNumber": 2,
+              "displayLabel": "Main Event Series 2",
+              "bestOf": 3,
+              "games": [
+                {
+                  "youtubeId": "3QCMGZ36eFM",
+                  "publishedAt": "2026-08-21T08:31:29Z"
+                },
+                {
+                  "youtubeId": "igFFQjJrvY0",
+                  "publishedAt": "2026-08-21T09:19:59Z"
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
                 },
                 {
                   "youtubeId": "",
