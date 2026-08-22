@@ -2,7 +2,7 @@
   "meta": {
     "youtubeHandle": "@dota2",
     "importNotBefore": "2026-08-19T00:00:00Z",
-    "lastSync": "2026-08-22T09:02:58.676Z"
+    "lastSync": "2026-08-22T10:55:37.857Z"
   },
   "stages": [
     {
@@ -320,6 +320,37 @@
                 {
                   "youtubeId": "Hu8A6cqrHnk",
                   "publishedAt": "2026-08-22T08:55:12Z"
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                }
+              ]
+            },
+            {
+              "id": "main-2026-08-22-team-vision-team-yandex",
+              "teamA": "TEAM VISION",
+              "teamB": "Team Yandex",
+              "round": "Main Event",
+              "seriesNumber": 3,
+              "displayLabel": "Main Event Series 3",
+              "bestOf": 3,
+              "games": [
+                {
+                  "youtubeId": "y7wWO2FMlUo",
+                  "publishedAt": "2026-08-22T10:52:55Z"
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
                 },
                 {
                   "youtubeId": "",
