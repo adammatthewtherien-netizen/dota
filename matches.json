@@ -2,7 +2,7 @@
   "meta": {
     "youtubeHandle": "@dota2",
     "importNotBefore": "2026-08-19T00:00:00Z",
-    "lastSync": "2026-08-22T05:59:27.850Z"
+    "lastSync": "2026-08-22T07:47:19.179Z"
   },
   "stages": [
     {
@@ -285,6 +285,37 @@
                 {
                   "youtubeId": "6GkOIhJQNco",
                   "publishedAt": "2026-08-22T05:22:31Z"
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                }
+              ]
+            },
+            {
+              "id": "main-2026-08-22-boomboys-nigma-galaxy",
+              "teamA": "BoomBoys",
+              "teamB": "Nigma Galaxy",
+              "round": "Main Event",
+              "seriesNumber": 2,
+              "displayLabel": "Main Event Series 2",
+              "bestOf": 3,
+              "games": [
+                {
+                  "youtubeId": "XL0gMrFVl6M",
+                  "publishedAt": "2026-08-22T06:49:32Z"
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
                 },
                 {
                   "youtubeId": "",
