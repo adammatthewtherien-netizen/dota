@@ -2,7 +2,7 @@
   "meta": {
     "youtubeHandle": "@dota2",
     "importNotBefore": "2026-08-19T00:00:00Z",
-    "lastSync": "2026-08-21T19:56:26.371Z"
+    "lastSync": "2026-08-22T04:59:24.146Z"
   },
   "stages": [
     {
@@ -253,6 +253,42 @@
                 {
                   "youtubeId": "SOyno5xftx0",
                   "publishedAt": "2026-08-21T19:43:32Z"
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "2026-08-22",
+          "matches": [
+            {
+              "id": "main-2026-08-22-team-liquid-team-spirit",
+              "teamA": "Team Liquid",
+              "teamB": "Team Spirit",
+              "round": "Main Event",
+              "seriesNumber": 1,
+              "displayLabel": "Main Event Series 1",
+              "bestOf": 3,
+              "games": [
+                {
+                  "youtubeId": "7tgL4ejSG6M",
+                  "publishedAt": "2026-08-22T04:02:32Z"
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
                 },
                 {
                   "youtubeId": "",
