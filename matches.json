@@ -2,7 +2,7 @@
   "meta": {
     "youtubeHandle": "@dota2",
     "importNotBefore": "2026-08-19T00:00:00Z",
-    "lastSync": "2026-08-22T14:45:00.933Z"
+    "lastSync": "2026-08-22T15:40:57.984Z"
   },
   "stages": [
     {
@@ -351,6 +351,37 @@
                 {
                   "youtubeId": "QwRPnGEJmaE",
                   "publishedAt": "2026-08-22T13:45:56Z"
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                }
+              ]
+            },
+            {
+              "id": "main-2026-08-22-boomboys-team-spirit",
+              "teamA": "BoomBoys",
+              "teamB": "Team Spirit",
+              "round": "Main Event",
+              "seriesNumber": 4,
+              "displayLabel": "Main Event Series 4",
+              "bestOf": 3,
+              "games": [
+                {
+                  "youtubeId": "jxXiIkzBaB8",
+                  "publishedAt": "2026-08-22T14:57:17Z"
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
+                },
+                {
+                  "youtubeId": "",
+                  "publishedAt": ""
                 },
                 {
                   "youtubeId": "",
